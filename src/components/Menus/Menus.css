@@ -1,0 +1,56 @@
+.menus_container {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  position: relative;
+}
+
+.menus_container > img {
+  position: absolute;
+  right: 0;
+  top: 55px;
+  z-index: 1;
+}
+
+.menus_container h2 {
+  position: absolute;
+  transform: rotate(-90deg);
+  left: -100px;
+  top: 500px;
+  font-size: 100px;
+  line-height: 80px;
+  letter-spacing: 4px;
+  opacity: .5;
+}
+
+.menu_container .row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+
+.card {
+  max-width: 360px;
+  margin: 20px;
+}
+
+.card-title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card-body {
+  position: relative;
+}
+.card-body ul li {
+  list-style: none;
+}
+
+.card-body .price {
+  position: absolute;
+  bottom: 50px;
+  right: 15px;
+  font-weight: 700;
+  opacity: .4;
+}

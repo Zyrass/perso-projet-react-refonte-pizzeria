@@ -1,0 +1,74 @@
+.section_autres {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  min-width: 100%;
+  min-height: 100vh;
+}
+.section_autres > img:nth-child(1),
+.section_autres > img:nth-child(2),
+.section_autres > img:nth-child(3),
+.section_autres > img:nth-child(4) {
+  position: absolute;
+  height: 100%;
+  z-index: 1;
+}
+/* chicken */
+.section_autres > img:nth-child(1) {
+  left: -280px;
+  top: -100px;
+  transform: rotate(20deg);
+  height: 60%;
+  z-index: 0;
+}
+/* chicken */
+.section_autres > img:nth-child(2) {
+  right: -10px;
+  bottom: 50px;
+  transform: rotate(20deg);
+  height: 50%;
+  z-index: 1;
+}
+/* salades */
+.section_autres > img:nth-child(3) {
+  left: 50px;
+  bottom: 0px;
+  z-index: 2;
+  height: 50%;
+}
+/* tarte */
+.section_autres > img:nth-child(4) {
+  right: 50px;
+  top: 80px;
+  transform: rotate(5deg);
+  height: 30%;
+  z-index: 1;
+}
+
+.section_autres h2 {
+  text-align: center;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 4px;
+  opacity: .8;
+  color: #333;
+  margin: 50px 0;
+}
+
+.section_autres .desserts {
+  font-size: 40px;
+}
+
+.section_autres .tab-content {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.section_autres ul li span {
+  line-height: 30px;
+}
+.section_autres .price {
+  font-size: 30px;
+  font-weight: 700;
+  opacity: .4;
+}

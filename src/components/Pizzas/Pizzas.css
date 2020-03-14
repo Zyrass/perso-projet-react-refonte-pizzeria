@@ -1,0 +1,94 @@
+.pizzas_container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+.pizzas_container h2 {
+  position: absolute;
+  transform: rotate(90deg);
+  font-size: 100px;
+  line-height: 80px;
+  letter-spacing: 4px;
+  opacity: .5;
+}
+
+.pizzas_container h2.all {
+  right: -250px;
+  top: 500px;
+  text-shadow: 0 0 5px 5px #000!important;
+}
+.pizzas_container h2.tomatoe {
+  right: -750px;
+  top: 950px;
+}
+.pizzas_container h2.cream {
+  right: -750px;
+  top: 950px;
+}
+.pizzas_container > img:nth-child(1),
+.pizzas_container > img:nth-child(2),
+.pizzas_container > img:nth-child(3),
+.pizzas_container > img:nth-child(4) {
+  position: absolute;
+  left: -150px;
+  height: 650px;
+}
+
+.pizzas_container > img:nth-child(1) {
+  top: 250px;
+}
+.pizzas_container > img:nth-child(2) {
+  top: 1050px;
+  transform: rotate(-180deg);
+}
+
+.pizzas_container .container .row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: start;
+}
+
+.pizzas_container .container .row .card ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.pizzas_container .container .row .card ul li {
+  border: none;
+  padding: 2px;
+  margin: 2px;
+}
+.pizzas_container .container .row .card .card-header {
+  position: relative;
+}
+
+.pizzas_container .container .row .card .card-header > img {
+  position: absolute;
+  right: -40px;
+  top: 230px;
+}
+
+  
+
+.card {
+  max-width: 340px;
+}
+.card-title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.card-body {
+  position: relative;
+}
+
+.pizzas_container .price {
+  font-weight: 700;
+  opacity: 1;
+}

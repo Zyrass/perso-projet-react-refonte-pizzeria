@@ -1,0 +1,25 @@
+.carousel {
+  padding-top: 56px;
+  max-height: 100vh;
+}
+
+.carousel-item {
+  padding-top: -56px;
+}
+
+.carousel-caption {
+  margin-bottom: 150px!important;
+  background-color: rgba(1,1,1, .8)!important;
+  box-shadow: 0 0 5px lightyellow;
+}
+.display-1 {
+  text-shadow: 2px 2px 8px #000, -2px -2px 8px #000;
+}
+.lead {
+  letter-spacing: 2px;
+}
+
+.carousel img {
+  max-height: 100vh;
+  min-width: 100vw;
+}
