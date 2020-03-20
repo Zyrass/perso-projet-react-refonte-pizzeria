@@ -4,16 +4,17 @@ import Styles from "./TexMex.module.scss";
 class TexMex extends Component {
 
   /**
-   * @param String Nom du Tex-Mex
-   * @param String Description du Tex-Mex
-   * @param String Prix du Tex-Mex ( Exemple : 9.99 )
+   * @param String Nom du tex-mex
+   * @param String Description du tex-mex
+   * @param String Prix du tex-mex - Ex : 9.99
    */
-  item = ( name, description, price ) => {
+  texMex = ( name, description, price ) => {
     return (
-      <li className={ "list-group-item " + Styles.texMex__li }>
-        <span className="mr-5">
-          { name } : <span className="text-primary">{ description }</span>
-        </span><span className="price">{ `${ price }€` }</span>
+      <li className={ "list-group-item" + Styles.texMex__li } >
+        <span className="mr-5" >
+          { name } : <span className="text-primary" >{ description }</span>
+        </span><span className="price">{ `${ price }` }</span>
+
       </li>
     )
   }
@@ -21,17 +22,16 @@ class TexMex extends Component {
   render() {
     return (
       <Fragment>
-      <h3 className="text-center my-5 tex-mex">Nos Tex-Mex</h3>
+        <h3 className="text-center tex-mex">Nos Tex Mex</h3>
+        <ul className={ "list-group" + Styles.texMex__ul }>
 
-      <ul className={ "list-group " + Styles.texMex__ul  }>
+          { this.texMex( "Potatoes", "la barquette", "3.00" ) }
+          { this.texMex( "Onion rings", "8 pièces", "3.00" ) }
+          { this.texMex( "Nems", "6 pièces", "5.00" ) }
+          { this.texMex( "Chicken Wings", "8 pièces", "6.00" ) }
+          { this.texMex( "Nuggets", "10 pièces", "6.00" ) }
 
-        { this.item( "Potatoes", "la barquette", "3.00" ) }
-        { this.item( "Onion rings", "8 pièces", "3.00" ) }
-        { this.item( "Nems", "6 pièces", "5.00" ) }
-        { this.item( "Chicken Wings", "8 pièces", "6.00" ) }
-        { this.item( "Nuggets", "10 pièces", "6.00" ) }
-
-      </ul>
+        </ul>
       </Fragment>
     )
   }
