@@ -9,8 +9,12 @@
 
 .carousel-caption {
   margin-bottom: 150px!important;
-  background-color: rgba(1,1,1, .8)!important;
+  background-color: #333!important;
+  opacity: .9;
   box-shadow: 0 0 5px lightyellow;
+  border-radius: 5px;
+  max-width: 50%;
+  margin: 0 auto;
 }
 .display-1 {
   text-shadow: 2px 2px 8px #000, -2px -2px 8px #000;

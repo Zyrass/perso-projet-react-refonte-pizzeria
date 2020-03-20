@@ -47,7 +47,7 @@
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: start;
+  align-items: flex-start;
 }
 
 .pizzas_container .container .row .card ul {

@@ -20,7 +20,7 @@ const Menus = () => {
               alt="Représentation du menu panini"
             />
             <div className="card-body">
-              <span className="text-secondary price display-4">8€</span>
+              <span className="price display-4">8€</span>
               <h5 className="card-title">Menu Panini</h5>
               <hr />
               <p className="card-text text-muted">Composition du menu :</p>
@@ -40,7 +40,7 @@ const Menus = () => {
               alt="Représentation du menu wings" 
             />
             <div className="card-body">
-              <span className="text-secondary price display-4">8€</span>
+              <span className="price display-4">8€</span>
               <h5 className="card-title">Menu Wings</h5>
               <hr />
               <p className="card-text text-muted">Composition du menu :</p>
@@ -64,7 +64,7 @@ const Menus = () => {
               alt="Représentation du menu solo" 
             />
             <div className="card-body">
-              <span className="text-secondary price display-4">12€</span>
+              <span className="price display-4">12€</span>
               <h5 className="card-title">Menu Solo</h5>
               <hr />
               <p className="card-text text-muted">Composition du menu :</p>
@@ -85,7 +85,7 @@ const Menus = () => {
               alt="Représentation du menu duo" 
             />
             <div className="card-body">
-              <span className="text-secondary price display-4">22€</span>
+              <span className="price display-4">22€</span>
               <h5 className="card-title">Menu Duo</h5>
               <hr />
               <p className="card-text text-muted">Composition du menu :</p>
@@ -106,7 +106,7 @@ const Menus = () => {
               alt="Représentation du menu frenchy" 
             />
             <div className="card-body">
-              <span className="text-secondary price display-4">23€</span>
+              <span className="price display-4">23€</span>
               <h5 className="card-title">Menu Frenchy</h5>
               <hr />
               <p className="card-text text-muted">Composition du menu :</p>

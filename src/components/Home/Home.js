@@ -22,7 +22,8 @@ const Home = () => {
               className="d-block w-100 img-fluid "
             />
 
-            <div className="carousel-caption d-none d-md-block bg-dark pt-5 pb-5 mb-5">
+            { /*  d-none d-md-block bg-dark pt-5 pb-5 mb-5 */ }
+            <div className="carousel-caption">
               <h2>1 Pizza 33cm + canette</h2>
               <h3 className="display-1 text-info">Offre du Midi : 8€</h3>
               <p className="lead">Offre valable <span className="text-warning">en magasin et en semaine uniquement</span></p>
@@ -33,7 +34,8 @@ const Home = () => {
           <div className="carousel-item">
             <img src="http://www.frenchypizzas-meyzieu.com/img/pictures/photo-44.jpg" className="d-block w-100 img-fluid" alt="..." />
 
-            <div className="carousel-caption d-none d-md-block bg-dark pt-5 pb-5 mb-5">
+            { /*  d-none d-md-block bg-dark pt-5 pb-5 mb-5 */ }
+            <div className="carousel-caption">
               <h2>2 Pizzas 33cm</h2>
               <h3 className="display-1 text-info">Offre 7j/7j : 15€</h3>
               <p className="lead">Offre valable <span className="text-warning">exclusivement en magasin</span></p>
@@ -43,7 +45,8 @@ const Home = () => {
           <div className="carousel-item" >
             <img src="http://www.frenchypizzas-meyzieu.com/img/pictures/photo-22.jpg" className="d-block w-100 img-fluid" alt="..." />
 
-            <div className="carousel-caption d-none d-md-block bg-dark pt-5 pb-5 mb-5">
+            { /*  d-none d-md-block bg-dark pt-5 pb-5 mb-5 */ }
+            <div className="carousel-caption">
               <h2>3 Pizzas 33cm</h2>
               <h3 className="display-1 text-info">Offre 7j/7j : 21€</h3>
               <p className="lead">Offre valable <span className="text-warning">exclusivement en magasin</span></p>
@@ -53,7 +56,8 @@ const Home = () => {
           <div className="carousel-item">
             <img src="http://www.frenchypizzas-meyzieu.com/img/pictures/photo-33.jpg" className="d-block w-100 img-fluid" alt="..." />
 
-            <div className="carousel-caption d-none d-md-block bg-dark pt-5 pb-5 mb-5">
+            { /*  d-none d-md-block bg-dark pt-5 pb-5 mb-5 */ }
+            <div className="carousel-caption">
               <h2>4 Pizzas 33cm - <span className="text-danger">1 Marguarita + 3 pizzas au choix</span></h2>
               <h3 className="display-1 text-info">Offre 7j/7j : 26€</h3>
               <p className="lead">Offre valable <span className="text-warning">exclusivement en magasin</span></p>

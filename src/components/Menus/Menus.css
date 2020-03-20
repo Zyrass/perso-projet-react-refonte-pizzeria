@@ -52,5 +52,6 @@
   bottom: 50px;
   right: 15px;
   font-weight: 700;
-  opacity: .4;
+  color: dodgerblue;
+  /* rgb(69, 69, 69); */
 }

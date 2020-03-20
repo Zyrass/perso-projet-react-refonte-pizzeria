@@ -30,7 +30,7 @@ const Header = () => {
               rel="noopener noreferrer"
               className="btn btn-success btn-small my-2 my-sm-0 mx-2"
             >
-              Commandé avec 
+              Commander avec 
               <img 
                 src="./assets/images/logo/uber_eats_logo.svg.png"
                 alt="logo uber eat"
